@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/" />
+    <title>My Angular App!</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="/javascripts/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+    <script src="/javascripts/angularApp.js"></script>
+    
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style> .glyphicon-thumbs-up { cursor:pointer;}</style>
+  </head>
+  <body ng-app="flapperNews">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <ui-view></ui-view>
+      </div>
+    </div>
+  </body>
+</html>
